@@ -1,0 +1,21 @@
+﻿body {
+}
+.Grid
+{
+    margin:5%;
+    width:90%;
+    
+    }
+.Grid th
+{
+    background-color:White;
+    font-size:15px;
+    text-align:center;
+    border-color:White;
+    border-bottom:solid 3px blue;
+    }
+.Grid tr
+{
+   border-color:White;
+   font-size:15px;
+   }

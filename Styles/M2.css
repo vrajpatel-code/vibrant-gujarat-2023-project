@@ -1,0 +1,55 @@
+﻿body {
+}
+.mg
+{ 
+    width:90%;
+    margin-left:5%;    
+}
+.head #cimg
+{
+    display:none;
+    }
+.head .simg
+{
+    height:100px;
+    width:15%;
+    }
+.head .cimg
+{
+    height:100px;
+    width:65%;
+    margin:10px;
+    }
+.heading b
+{
+ width:100%;
+ display:block;
+ font-size:35px;
+ text-align:center;
+ margin-top:10px;
+ border-bottom:solid 10px #2c1973;
+}
+.body
+{
+   width:80%;
+   float:right; 
+   }
+.navbar
+{
+   width:20%;
+   float:left;
+   display:block;
+   background-color:#2c1973; 
+   }
+.navbar a
+{
+    display:block;
+    margin-left:5%;
+    width:90%;
+    font-size:20px;
+    margin:10px 0px;
+    padding:5px 10px;
+    cursor:pointer;
+    box-shadow:0px 0px 5px black;
+    
+    }

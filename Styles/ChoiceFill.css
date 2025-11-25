@@ -1,0 +1,133 @@
+﻿body 
+{
+}
+.Search
+{
+    width:90%;
+    margin-left:5%;
+    }
+.selectops
+{
+    width:30%;
+    padding:15px 0px;
+    display:inline-block;
+    }
+.DropLb
+{
+    font-size:20px;
+    width:55%;
+    margin-left:5%;   
+    }
+.DropLst
+{
+    font-size:20px;
+    width:40%;
+    float:right;
+    border-radius:5px;
+    background:linear-gradient(-135deg,rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+
+    }
+.srcimg
+{
+    width:8%;
+    float:right;
+    text-align:center;
+    padding:10px;
+    }
+.searchimg
+{
+
+    width:45px;
+    padding:10px;
+    background-color:rgb(76, 222, 115);
+    border-radius:5px;
+    }
+.grid
+{
+    margin:20px 0px;
+    border-radius:10px;
+    width:100%;
+    border:solid 2px black;
+    
+    }    
+.grid th
+{
+    text-align:center;
+    border:solid 2px black;
+    font-size:20px;
+    background-color:rgba(0,0,0,0.6);
+    color:White;
+    }
+    
+.grid tr
+{
+    background-color:rgba(0,0,200,0.2);
+    transform:1s;
+    border-right:solid 1px black;
+    font-size:15px;
+    border-bottom:solid 2px black;
+    }
+.grid .selectinfo
+{
+    padding-left:10px;
+    
+    }
+.grid .addbt
+{
+    color:White;
+    border-radius:5px;
+    font-size:20px;
+    text-decoration:none;
+    padding:0px 3px;
+    background-color:rgb(76, 222, 115);
+    }
+.PTable
+{
+    width:100%;
+    border-radius:10px;
+    border:solid 2px black;
+    margin:20px 0px;
+    } 
+.PTable th
+{
+    text-align:center;
+    background-color:rgba(0,0,0,0.6);
+    font-size:17px;
+    color:White;
+    border:solid 2px black;
+
+    }
+
+.FildT
+{
+    
+    display:inline-block;
+    text-align:center;
+    
+    
+    }
+ .PTable td
+ {
+     background-color:rgba(0,0,200,0.4);
+     font-size:15px;
+     height:0px;
+     border:solid 1px black;
+     
+     }
+  .lastrow
+  {
+      background-color:White;
+      
+      animation: moving 2s; 
+      height:0px;
+      }
+      
+      
+  @keyframes moving{
+    0%{
+        height:0px;
+    }
+    100%{
+        height:auto;
+    }
+}

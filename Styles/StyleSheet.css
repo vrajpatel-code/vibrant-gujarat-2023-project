@@ -1,0 +1,251 @@
+﻿body 
+{
+    
+}
+.mg
+{ 
+    width:90%;
+    margin-left:5%;    
+}
+.head #cimg
+{
+    display:none;
+    }
+.head .simg
+{
+    height:100px;
+    width:15%;
+    }
+.head .cimg
+{
+    height:100px;
+    width:65%;
+    margin:10px;
+    }
+    .head .icon
+    {
+        margin-top:35px;
+        float:right;
+       
+     }
+     .head .bar
+    {
+     height:3px;
+     background-color:Black;
+     width:20px;
+     margin:4px;
+     cursor:pointer;
+     display:none;
+     }
+ #check
+ {
+     display:none;
+     }
+ 
+
+.heading b
+{
+ width:100%;
+ display:block;
+ font-size:35px;
+ text-align:center;
+ margin-top:10px;
+}
+
+.navi
+{
+    width:100%;
+    background-color:#2c1973;
+    text-align:right;
+    overflow:hidden; 
+
+}
+.navi a
+{
+ 
+    padding:10px 15px;
+    font-size:20px;
+    border-radius:5px;
+    font-family:montserrat;
+    display:inline-block; 
+    overflow:hidden; 
+    transition:0.5s ;
+}
+.navi a:hover
+{
+    background-color:rgba(0,0,0,0.4);
+    transform:translate(-2px,-2px) scale(1.05);
+    cursor:pointer;
+    padding:7px 15px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+
+
+.footer
+{
+    background-color:#2c1973;    
+    color:White;
+    text-align:center;
+    padding:50px;
+}
+.footer h4{
+   font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align:center;
+    padding-bottom:20px;
+}
+.footer a
+{
+    display:block;
+    width:100%;
+    }
+.underline{
+    width: 80%;
+    height: 3px;
+    margin-left:10%;
+    background-color: rgb(221, 88, 11);
+    border-radius:2px ;
+    position: relative;
+    top:5px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height:4px;
+    background-color:rgb(27, 13, 62);
+    position: absolute;
+    animation: moving 2s  linear infinite; 
+    border-radius: 2px;
+    left: 20px;
+    top: 0;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 690px) 
+{
+    .head .simg,.cimg
+    {
+        display:none; 
+       }
+    .head #cimg
+    {
+        display:block;
+        height:auto;
+        margin-left:20px; 
+        width:80%; 
+        height:80px;
+        float:left;
+        padding-right:10%;
+        }
+    
+    .head .icon
+    {
+    background-color: rgba(0,0,100,0.8);
+    position:relative;
+    box-shadow:0px 0px 5px black; 
+    margin-bottom:15px;
+    height:30px;
+    margin-right:5%;
+    
+    width:35px;
+    padding:3px; 
+    border-radius:5px;    
+        }
+    
+    .head .bar
+    { 
+        display:block;
+        border-radius:2px;
+        background-color:White;
+        transition: 0.5s ease;
+        }
+    
+    #check:checked~.icon #bar1
+    {
+        display:none;
+        }
+    #check:checked~.icon #bar2
+    {   
+         margin-top:10px;
+         position:absolute;
+         transform:rotate(45deg);
+        }
+    #check:checked~.icon #bar3
+    {
+        margin-top:10px;
+        position:absolute;
+        transform:rotate(-45deg);
+        }
+    
+    .heading b
+    {   
+       
+        font-size:25px;
+
+         color:#2c1973;
+         border-bottom:solid 10px #2c1973;
+        
+        }
+    
+    
+    .navi
+    {
+       position:absolute;
+        text-align:center;
+        top:80px;
+        width:90%;
+        height:0px;
+        overflow:hidden;
+        transition: 1s ease;
+        background-color: rgba(0,0,100,0.8);
+        border-top-left-radius:20px;
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 50px;
+        
+        }
+        
+    
+    #check:checked~.navi
+    {
+       height:200px;
+       }
+       .navi a
+    {
+       display:block;
+       padding:5px;
+       transition:.5s ease;
+       color:White;
+       opacity:0;
+       transform:translateY(-50px);
+  
+        }
+       #check:checked~.navi a
+       {
+        transform:translateY(0px); 
+        opacity:1;
+        transition-delay:calc(0.15s * var(--i));
+        
+           }
+    }
